@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dasteen's blog</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container container--header">
+        <a href="#" class="logo">
+          Dasteen<span class="logo__blog">.blog</span>
+        </a>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Category</a>
+          <a href="#">About Me</a>
+          <a href="#"><img src="img/icons/search.svg" alt="search" />Search</a>
+        </nav>
+        <button class="buy-me-a-coffee">
+          <img
+            src="img/buymeacoffee.png"
+            alt="bymeacoffee"
+            width="24"
+            height="24"
+          />
+          Buy Me A Coffee
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container container--hero">
+          <div class="hero__info-panel">
+            <h1>Hi, i’m Dasteen Front end dev</h1>
+            <p>
+              On this blog I share tips and tricks, frameworks, projects,
+              tutorials, etc Make sure you subscribe to get the latest updates
+            </p>
+            <form>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email here"
+                required
+                autocomplete="email"
+              />
+              <input type="submit" value="Subscribe" />
+            </form>
+          </div>
+          <img src="img/hero.png" alt="frontend dev" />
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <div class="section-header">
+            <h2>Browse The Category</h2>
+            <button class="see-all-items right-arrowed">
+              See All Category
+            </button>
+          </div>
+          <ul>
+            <li class="category">
+              <img src="img/categories/css.png" alt="css" width="60" />
+              CSS
+            </li>
+            <li class="category">
+              <img src="img/categories/js.png" alt="css" width="60" />JS
+            </li>
+            <li class="category active">
+              <img
+                src="img/categories/tailwind.png"
+                alt="css"
+                width="60"
+              />Tailwind
+            </li>
+            <li class="category">
+              <img src="img/categories/vue.png" alt="css" width="60" />Vue JS
+            </li>
+            <li class="category">
+              <img src="img/categories/react.png" alt="css" width="60" />React
+              JS
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="featured-articles">
+        <div class="container">
+          <div class="section-header">
+            <h2>Featured Article</h2>
+            <button class="see-all-items right-arrowed">See All Article</button>
+          </div>
+          <ul class="articles">
+            <li class="article">
+              <figure>
+                <img src="img/articles/article1.jpg" alt="article" />
+                <figcaption>Fundamental of javascript</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article2.jpg" alt="article" />
+                <figcaption>Grid CSS make your life easier</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article3.jpg" alt="article" />
+                <figcaption>
+                  Make animated light mode and dark mode toggle with CSS
+                </figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article4.jpg" alt="article" />
+                <figcaption>Make tic tac toe games with react JS</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="css" id="css">
+        <div class="container">
+          <div class="section-header">
+            <h2>CSS</h2>
+            <button class="see-all-items right-arrowed">See All Article</button>
+          </div>
+          <ul class="articles">
+            <li class="article">
+              <figure>
+                <img src="img/articles/article5.jpg" alt="article" />
+                <figcaption>
+                  Flexbox cSS : Everything you need to know
+                </figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article2.jpg" alt="article" />
+                <figcaption>Grid CSS make your life easier</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article6.jpg" alt="article" />
+                <figcaption>3 easy way to make div center</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article3.jpg" alt="article" />
+                <figcaption>
+                  Make animated light mode and dark mode toggle with CSS
+                </figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="js" id="js">
+        <div class="container">
+          <div class="section-header">
+            <h2>Javascript</h2>
+            <button class="see-all-items right-arrowed">See All Article</button>
+          </div>
+          <ul class="articles">
+            <li class="article">
+              <figure>
+                <img src="img/articles/article7.jpg" alt="article" />
+                <figcaption>array in javasript - Learn JS #3</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article1.jpg" alt="article" />
+                <figcaption>Fundamental of javascript</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article8.jpg" alt="article" />
+                <figcaption>
+                  7 project with javascript you must try for your portfolio
+                </figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article9.jpg" alt="article" />
+                <figcaption>make simple calculator with javascript</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="react" id="react">
+        <div class="container">
+          <div class="section-header">
+            <h2>React JS</h2>
+            <button class="see-all-items right-arrowed">See All Article</button>
+          </div>
+          <ul class="articles">
+            <li class="article">
+              <figure>
+                <img src="img/articles/article10.jpg" alt="article" />
+                <figcaption>first month of leaning react jS</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article11.jpg" alt="article" />
+                <figcaption>build markdown editor with react JS</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article12.jpg" alt="article" />
+                <figcaption>getting started with react JS</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <figure>
+                <img src="img/articles/article4.jpg" alt="article" />
+                <figcaption>Make tic tac toe games with react JS</figcaption>
+              </figure>
+              <div class="author">
+                <div class="avatar">
+                  <img src="img/articles/author.jpg" alt="author" />
+                </div>
+                <div class="author__name-date">
+                  <div class="author__name">Dasteen</div>
+                  <div class="author__time">
+                    <div class="date">Jan 10, 2022</div>
+                    <div class="separator"></div>
+                    <div class="time-elapsed">3 min read</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="more" id="more">
+        <button>More Article</button>
+      </div>
+      <section class="subscribe">
+        <div class="container container--subscribe">
+          <h2>Subscribe For the lastest updates</h2>
+          <p>Subscribe to newsletter and never miss the new post every week.</p>
+          <form>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email here"
+              required
+              autocomplete="email"
+            />
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-info">
+          <div class="footer-info__logo">
+            <a href="#" class="logo">
+              Dasteen<span class="logo__blog">.blog</span>
+            </a>
+            <a href="#">Digitaldastin by Dastin Darmawan</a>
+            <div class="footer-info__social-links">
+              <a href="#"
+                ><img src="img/socials/monogram.png" alt="monogram" width="30"
+              /></a>
+              <a href="#"
+                ><img src="img/socials/twitter.png" alt="twitter"
+              /></a>
+              <a href="#"
+                ><img src="img/socials/instagram.png" alt="instagram"
+              /></a>
+              <a href="#"
+                ><img src="img/socials/linkedin.png" alt="linkedin"
+              /></a>
+            </div>
+          </div>
+          <nav>
+            <div>
+              <h3>category</h3>
+              <ul>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">Javascript</a></li>
+                <li><a href="#">Tailwind</a></li>
+                <li><a href="#react">React JS</a></li>
+                <li><a href="#more">More Category</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>about me</h3>
+              <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Achievement</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>get in touch</h3>
+              <ul>
+                <li><a href="tel:+62-8XXX-XXX-XX">+62-8XXX-XXX-XX</a></li>
+                <li><a href="mailto:demo@gmail.com">demo@gmail.com</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>follow us</h3>
+              <ul>
+                <li><a href="#">Medium</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <p class="copyright">© 2025 Digitaldastin</p>
+      </div>
+    </footer>
+  </body>
+</html>
